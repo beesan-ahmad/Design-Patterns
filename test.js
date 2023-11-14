@@ -1,4 +1,8 @@
 const Singleton = require('./Singleton');
+const StructuralPatternTesting = require('./STRUCTURAL PATTERN/StructuralPatternTesting');
+
+console.log("***************************************");
+console.log("Implementing Creational Design Pattern: By Singleton Pattern");
 try {
     // Trying to create an instance directly, which should throw an error
     const directInstance = new Singleton();
@@ -15,3 +19,7 @@ try {
 } catch (error) {
     console.error(error.message);
 }
+// execute structural pattern (decorator pattern) by calling the TestingStructuralPattern() method
+console.log("***************************************");
+console.log("Implementing Structural Design Pattern: By Decorator Pattern");
+StructuralPatternTesting.TestingStructuralPattern();

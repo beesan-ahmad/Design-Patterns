@@ -1,4 +1,5 @@
 // AddOn.js this class acts as a decorator, also extending the Drinks class. 
+const Drinks = require('./Drinks');
 
 class AddOn extends Drinks {
     constructor(description, drink) {
