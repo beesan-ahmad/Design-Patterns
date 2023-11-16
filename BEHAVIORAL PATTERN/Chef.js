@@ -8,4 +8,4 @@ class Chef{
 
     }
 } 
-module.export = Chef;
+module.exports = Chef;

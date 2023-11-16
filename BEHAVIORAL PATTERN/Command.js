@@ -2,4 +2,4 @@
 class Command {
   execute() {}
 }
-module.export = Command;
+module.exports = Command;

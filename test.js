@@ -1,6 +1,6 @@
 const Singleton = require('./Singleton');
 const StructuralPatternTesting = require('./STRUCTURAL PATTERN/StructuralPatternTesting');
-
+const BehavioralPatternTesting = require('./BEHAVIORAL PATTERN/BehavioralPatternTesting');
 console.log("***************************************");
 console.log("Implementing Creational Design Pattern: By Singleton Pattern");
 try {
@@ -23,3 +23,8 @@ try {
 console.log("***************************************");
 console.log("Implementing Structural Design Pattern: By Decorator Pattern");
 StructuralPatternTesting.TestingStructuralPattern();
+
+// execute behavioral pattern (command pattern) by calling the TestingBehavioralPattern() method
+console.log("***************************************");
+console.log("Implementing Behavioral Design Pattern: By Command Pattern");
+BehavioralPatternTesting.TestingBehavioralPattern();

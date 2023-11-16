@@ -1,6 +1,7 @@
 const Chef = require('./Chef');
 const Order = require('./Order');
 const Waiter = require('./Waiter');
+
 class BehavioralPatternTesting{
     static TestingBehavioralPattern(){
         const chef = new Chef();
@@ -14,6 +15,6 @@ class BehavioralPatternTesting{
 
     }
 
-
 }
-module.export = BehavioralPatternTesting;
+//BehavioralPatternTesting.TestingBehavioralPattern();
+module.exports = BehavioralPatternTesting;
